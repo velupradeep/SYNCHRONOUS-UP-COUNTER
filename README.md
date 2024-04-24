@@ -65,6 +65,8 @@ endmodule
 ![325158306-93adb12a-57dd-47be-9f71-6b194b5f8b0f](https://github.com/velupradeep/SYNCHRONOUS-UP-COUNTER/assets/150329341/200de07c-0ea1-444c-a447-a492a165c62b)
 
 **TRUTH TABLE**
+
+
 ![325158378-21e30059-c5dd-41e0-9606-c4f9ee721544](https://github.com/velupradeep/SYNCHRONOUS-UP-COUNTER/assets/150329341/e5f17247-1f9e-4870-92b2-eb11ed61af0e)
 
 
