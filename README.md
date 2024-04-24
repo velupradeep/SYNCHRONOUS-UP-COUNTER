@@ -1,4 +1,7 @@
-### SYNCHRONOUS-UP-COUNTER
+
+# NAME:PRADEEP V
+# REG NO:212223240119
+# EX-11 SYNCHRONOUS-UP-COUNTER
 
 **AIM:**
 
@@ -34,13 +37,36 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by:PRADEEP V 
+RegisterNumber:212223240119
 */
 
+```
+
+module ex11(out,clk,rstn);
+input clk,rstn;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(!rstn)
+     out<=0;
+   else 
+     out <= out+1;
+end
+endmodule
+
+```
+
 **RTL LOGIC UP COUNTER**
+![325158164-480f6713-e7c6-45a1-a3b5-711f776877aa](https://github.com/velupradeep/SYNCHRONOUS-UP-COUNTER/assets/150329341/eb77cb31-76b7-47c3-be89-1deef42c13a1)
+
 
 **TIMING DIAGRAM FOR IP COUNTER**
+![325158306-93adb12a-57dd-47be-9f71-6b194b5f8b0f](https://github.com/velupradeep/SYNCHRONOUS-UP-COUNTER/assets/150329341/200de07c-0ea1-444c-a447-a492a165c62b)
 
 **TRUTH TABLE**
+![325158378-21e30059-c5dd-41e0-9606-c4f9ee721544](https://github.com/velupradeep/SYNCHRONOUS-UP-COUNTER/assets/150329341/e5f17247-1f9e-4870-92b2-eb11ed61af0e)
+
 
 **RESULTS**
+ Hence a 4 bit synchronous up counter is implemented correctly
