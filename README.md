@@ -1,7 +1,5 @@
 
-# NAME:PRADEEP V
-# REG NO:212223240119
-# EX-11 SYNCHRONOUS-UP-COUNTER
+# EX-11 Synchronous-Up-Counter
 
 **AIM:**
 
@@ -43,11 +41,16 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **PROGRAM**
 
+```
+
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
 Developed by:PRADEEP V 
 RegisterNumber:212223240119
 */
+```
+
+
 
 ```
 
